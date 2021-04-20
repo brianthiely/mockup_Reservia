@@ -1,0 +1,181 @@
+body {
+	font-family: 'Raleway', sans-serif;
+    margin-left: 50px;
+    margin-right: 77px;
+    
+}
+
+main {
+    display: flex;
+	
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li  {
+    list-style-type: none;
+    padding-left: 2em;
+}
+
+
+
+
+
+#accomodations {
+    background-color: #F2F2F2;
+    border-radius: 2%;
+    width: 880px; 
+    height: 600px;
+}
+
+#accomodations h2 {
+    margin-left: 2.2em;
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+
+
+
+#content {
+    margin-top: -27px;
+    display: flex;
+    flex-wrap: wrap; 
+    padding-left: 40px;
+    padding-bottom: 0.7em;
+}
+
+.blockContent {
+    width: 235px;
+    height: 200px;
+    border-radius: 10%;
+    background-color: white;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.imgContent {
+    width: 225px;
+    height: 113px;  
+    margin: auto; 
+    margin-top: -14px;
+}
+
+.imgAccomodation {
+    object-fit: cover;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    width: 100%;
+    height: 100%;    
+}
+
+.footerContent {
+    line-height: 11px;
+    padding-bottom: 15px;
+    width: 235px;
+    height: 79px;
+}
+
+
+#moreContent a {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 43px;
+    margin-top: 49px; 
+}
+
+
+
+.nameAccomodation {
+    font-size: 0.9em;
+    color: black;
+}
+
+.nameAccomodation, a {
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+.priceAccomodation {
+    font-size: 0.8em;
+    color: black;
+    padding-left: 16px;
+
+}
+
+.stars {
+    color: #0065fc; 
+    font-size: 0.7em;
+    padding-left: 16px;
+
+}
+
+
+
+
+#contentAsside {
+    background-color: #F2F2F2;
+    border-radius: 2%;
+    height: 600px;
+    width: 300px;
+    border: solid black;
+    margin-left: 40px;
+
+}
+
+
+
+.blockAsside {
+    width: 260px;
+    height: 103px;
+    border-radius: 10%;
+    background-color: white;
+    margin: auto;
+    margin-left: 1em;
+
+}
+
+.imgAsside {
+    width: 115px;
+    height: 93px;  
+    margin-top: -14px;
+    margin-left: 4px;
+}
+
+.imgAccomodationAsside {
+    object-fit: cover;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    width: 100%;
+    height: 100%;    
+}
+
+.footerContentAsside {
+    line-height: 11px;
+    padding-bottom: 15px;
+    width: 235px;
+    height: 79px;
+}
+
+#titleAsside {
+    display: flex;
+}
+#titleAsside h2 {
+    margin-left: 1em;
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+
+#titleAsside i {
+    font-size: 1.2em;
+    margin: auto;
+    padding-top: 20px;
+
+}
