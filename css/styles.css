@@ -1,8 +1,7 @@
 body {
 	font-family: 'Raleway', sans-serif;
-    margin-left: 50px;
-    margin-right: 77px;
-    
+    margin-left: 25px;
+    margin-right: 38.5px;
 }
 
 main {
@@ -10,34 +9,81 @@ main {
 	
 }
 
+/* HEADER */
+
 header {
     display: flex;
     justify-content: space-between;
+    padding-top: 25px;
 }
 
 nav ul {
     display: flex;
+
 }
 
 nav li  {
     list-style-type: none;
-    padding-left: 2em;
+    padding-left: 69px;
+    font-weight: normal;
 }
+
+/* /HEADER */
+
+
+#headerSearch {
+    padding-top: 26px;
+}
+
+#title_headerSearch {
+    line-height: 15.5px;
+}
+
+#title_headerSearch, h2 {
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            /* SECTION HEBERGEMENTS */
+
 
 
 
 
 
 #accomodations {
-    background-color: #F2F2F2;
-    border-radius: 2%;
+    background-color: #F2F2F2;        
+    border-radius: 2%;                  /*  LE CARRE GRIS */
     width: 880px; 
     height: 600px;
 }
 
 #accomodations h2 {
     margin-left: 2.2em;
-    font-size: 1.2em;
+    font-size: 1.2em;                   /*  TITRE DU CARRE GRIS */
     padding-top: 20px;
 }
 
@@ -45,8 +91,8 @@ nav li  {
 
 #content {
     margin-top: -27px;
-    display: flex;
-    flex-wrap: wrap; 
+    display: flex;           
+    flex-wrap: wrap;                    /* BLOC ENTIER HEBERGEMENT */
     padding-left: 40px;
     padding-bottom: 0.7em;
 }
@@ -54,7 +100,7 @@ nav li  {
 .blockContent {
     width: 235px;
     height: 200px;
-    border-radius: 10%;
+    border-radius: 10%;                 /* SELF BLOC HEBERGEMENT */
     background-color: white;
     margin-right: 30px;
     margin-top: 30px;
@@ -62,14 +108,14 @@ nav li  {
 
 .imgContent {
     width: 225px;
-    height: 113px;  
+    height: 113px;                      /* BLOC DES IMAGES */  
     margin: auto; 
     margin-top: -14px;
 }
 
 .imgAccomodation {
     object-fit: cover;
-    border-top-left-radius: 10%;
+    border-top-left-radius: 10%;        /* IMAGES */
     border-top-right-radius: 10%;
     width: 100%;
     height: 100%;    
@@ -77,7 +123,7 @@ nav li  {
 
 .footerContent {
     line-height: 11px;
-    padding-bottom: 15px;
+    padding-bottom: 15px;               /* FOOTER BLOC HEBERGEMENT */
     width: 235px;
     height: 79px;
 }
@@ -85,37 +131,43 @@ nav li  {
 
 #moreContent a {
     color: black;
-    font-size: 1em;
+    font-size: 1em;                 /* <P> AFFICHER PLUS */
     font-weight: bold;
     padding-left: 43px;
     margin-top: 49px; 
 }
 
 
-
 .nameAccomodation {
-    font-size: 0.9em;
+    font-size: 0.9em;               /* NOMS HEBERGEMENT */
     color: black;
 }
 
 .nameAccomodation, a {
-    text-decoration: none;
+    text-decoration: none;          /* STYLE NOMS HEBERGEMENT */
     padding-left: 16px;
 }
 
 .priceAccomodation {
     font-size: 0.8em;
-    color: black;
+    color: black;               /*  PRIX HEBERGEMENT */
     padding-left: 16px;
 
 }
 
 .stars {
     color: #0065fc; 
-    font-size: 0.7em;
+    font-size: 0.7em;           /* ETOILE NOTE HEBERGEMENT */
     padding-left: 16px;
 
 }
+
+
+
+
+
+                        /* ASSIDE HEBERGEMENT POPULAIRE */
+
 
 
 
@@ -123,28 +175,48 @@ nav li  {
 #contentAsside {
     background-color: #F2F2F2;
     border-radius: 2%;
-    height: 600px;
+    height: 600px;                     /* CARRE GRIS ASSIDE HEBERGEMENT POPULAIRE */
     width: 300px;
     border: solid black;
     margin-left: 40px;
 
 }
 
+#titleAsside {
+    display: flex;           /* AGENCEMENT TITRE ASSIDE */   
+}
+#titleAsside h2 {
+    margin-left: 1em;
+    font-size: 1.2em;       /* TITRE ASSIDE */
+    padding-top: 20px;
+}
 
+#titleAsside i {
+    font-size: 1.2em;
+    margin: auto;           /* ICONE TITRE ASSIDE */
+    padding-top: 20px;
+
+}
+
+#contentAccomodationsAsside {
+        
+                                        /* BLOC ASSIDE ENTIER HEBERGEMENT POPULAIRE */
+
+}
 
 .blockAsside {
     width: 260px;
     height: 103px;
     border-radius: 10%;
-    background-color: white;
+    background-color: white;            /* SELF BLOC HEBERGEMENT POPULAIRE */
     margin: auto;
     margin-left: 1em;
 
 }
 
 .imgAsside {
-    width: 115px;
-    height: 93px;  
+    width: 113px;
+    height: 170px;                      /* BLOC IMAGE HEBERGEMENT POPULAIRE */
     margin-top: -14px;
     margin-left: 4px;
 }
@@ -152,30 +224,17 @@ nav li  {
 .imgAccomodationAsside {
     object-fit: cover;
     border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
+    border-bottom-left-radius: 10%;         /* IMAGE HEBERGEMENT POPULAIRE */
     width: 100%;
     height: 100%;    
 }
 
 .footerContentAsside {
     line-height: 11px;
-    padding-bottom: 15px;
+    padding-bottom: 15px;                   /* FOOTER BLOC HEBERGEMENT POPULAIRE */
     width: 235px;
     height: 79px;
 }
 
-#titleAsside {
-    display: flex;
-}
-#titleAsside h2 {
-    margin-left: 1em;
-    font-size: 1.2em;
-    padding-top: 20px;
-}
 
-#titleAsside i {
-    font-size: 1.2em;
-    margin: auto;
-    padding-top: 20px;
 
-}
