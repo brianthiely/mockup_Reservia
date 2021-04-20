@@ -28,39 +28,44 @@
                 <p> En plein centre ville ou pleine nature  </p>
             </div>
 
-            <div id="iconeGPS">
-                <i class="fas fa-map-marker-alt"></i>
+            <div id="barSearch">
+                <div id="iconeGPS">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <input type="search" placeholder="Marseille, France" id="city_search">
+
+                <div id="btnSearch">
+                    <button> Rechercher  </button>
+                </div>
             </div>
-            <input type="search" placeholder="Marseille, France" id="city_search"> 
-            <button> Rechercher  </button>
 
             <div id="filterSearch">
-                <button class="buttonFilter" id="filterEco">
+                <button class="buttonFilter">
                     <span class="iconeFilter">
                         <i class="fas fa-money-bill-wave"></i>
                     </span>
-                    <span> Économique </span>
+                    <span class="filterName"> Économique </span>
                 </button>
 
-                <button class="buttonFilter" id="filerSearchFamille">
+                <button class="buttonFilter">
                     <span class="iconeFilter">
                         <i class="fas fa-child"></i>
                     </span>
-                    <span> Familial </span>
+                    <span class="filterName"> Familial </span>
                 </button>
 
-                <button class="buttonFilter" id="filterSearchLove">
+                <button class="buttonFilter">
                     <span class="iconeFilter">
                         <i class="fas fa-heart"></i>
                     </span>
-                    <span> Romantique </span>
+                    <span class="filterName"> Romantique </span>
                 </button>
 
-                <button class="buttonFilter" id="filterSearchPet">
+                <button class="buttonFilter">
                     <span class="iconeFilter">
                         <i class="fas fa-dog"></i>
                     </span>
-                    <span> Animaux autorisés </span>
+                    <span class="filterName"> Animaux autorisés </span>
                 </button>
             </div>
 
