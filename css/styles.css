@@ -3,6 +3,11 @@ body {
     margin-left: 25px;
     margin-right: 38.5px;
 }
+#containBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 main {
     display: flex;
@@ -29,10 +34,38 @@ nav li  {
     font-weight: normal;
 }
 
+#li_hebergements a {
+    color: black;
+}
+
+#li_hebergements a:hover, a:active {
+    color: #0065fc;
+    border-top: solid #0065fc;
+    padding-top: 48px;
+}
+
+#li_activités a {
+    color: black;
+}
+
+#li_activités a:hover, a:active {
+    color: #0065fc;
+    border-top: solid #0065fc;
+    padding-top: 48px;
+}
+
+#li_inscription {
+    color: #0065fc;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 /* /HEADER */
 
 
                     /* BARRE DE RECHERCHE */
+
+
 #headerSearch {
     display: flex;
     flex-direction: column;
@@ -41,27 +74,22 @@ nav li  {
 
 #title_headerSearch p {
     margin-top: -15px;
-    margin-bottom: 23px;
-}
-
-#title_headerSearch, h2 {
-    font-size: 1.2em;
 }
 
 #barSearch {
     display: flex;
     width: 420px;
-    border-top-left-radius: 0%;
-    border-bottom-left-radius: 0%;
+    height: 52.4px;
     margin-bottom: 30px;
+    background-color: #F2F2F2;
+    padding-top: 1px;
+    border-radius: 19px;
 }
+
 #iconeGPS {
     display: flex;
-    background-color: #F2F2F2;
-    height: 50px;
-    width: 50px;
-    border-top-left-radius: 40%;
-    border-bottom-left-radius: 40%;
+    height: 100%;
+    width: 52.4px;
 }
 
 #iconeGPS i {
@@ -72,49 +100,88 @@ nav li  {
 #city_search::placeholder {
     font-weight: bold;
     color: black;
-    font-size: 1.3em;
-    padding-left: 17px;
-
+    font-size: 1em;
+    padding-left: 17.5px;
 }
+
+/* Placeholders */
+::placeholder { opacity: 1; transition: opacity .5s; } 
+
+/* Focus */
+*:focus::placeholder { opacity: 0; } 
+
 
 #city_search {
-    width: 234px;
-    height: 50px;
-    border-color: #F2F2F2;
+    width: 234.4px;
+    height: 51px;
+    padding: 17px;
+    border-color: transparent;
     border-style: solid;
 }
+
+input {
+    outline: none;
+  }
 
 #btnSearch button {
     font-weight: bold;
     font-size: 1em;
     color: white;
-    height: 50px;
-    width: 134px;
+    height: 51px;
+    width: 133.5px;
     background-color: #0065fc;
     border-style: solid;
     border-color: transparent;
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    outline: none;
+    cursor: pointer;
 }
+
 
 
 
 
 
 #filterSearch {
-
+    display: flex;
 }
 
-.buttonFilter{
+#containFilter {
+    display: flex;
+}
 
+
+
+.buttonFilter{
+    display: flex;
+    outline: none; 
+    margin-left: 24.4px;
+    height: 50px;  
+    background-color: white;
 }
 
 .iconeFilter {
+    display: flex;
+    background-color: #DEEBFF;
+    height: 100%;
+    width: 50px;
+    border-radius: 50px;
+}
 
+.iconeFilter i {
+    font-size: 1.2em;
+    color: #0065fc;
+    margin: auto;
 }
 
 .filterName {
-
+    color: black;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 14px;
+    padding-right: 22px;
 }
 
 
