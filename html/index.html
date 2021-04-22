@@ -46,32 +46,33 @@
                 <div class="filterSearch">
                     <div id="containFilter">
 
-                        <span class="filterName">
+                        <span id="titleFilter">
                             Filtres 
                         </span>
 
-                        <button name="optionHebergement" type="button"  class="buttonFilter">
+                        <button type="button" class="optionFilter">
                             <div class="iconeFilter">
                                 <i class="fas fa-money-bill-wave"></i>
                             </div>
                             <span class="filterName"> Économique </span>
                         </button>
 
-                        <button name="optionHebergement" type="button" class="buttonFilter">
+
+                        <button type="button" class="optionFilter">
                             <div class="iconeFilter">
                                 <i class="fas fa-child"></i>
                             </div>
                             <span class="filterName"> Familial </span>
                         </button>
 
-                        <button name="optionHebergement" type="button"  class="buttonFilter">
+                        <button type="button" class="optionFilter">
                             <div class="iconeFilter">
                                 <i class="fas fa-heart"></i>
                             </div>
                             <span class="filterName"> Romantique </span>
                         </button>
 
-                        <button name="optionHebergement" type="button" class="buttonFilter">
+                        <button type="button" class="optionFilter">
                             <div class="iconeFilter">
                                 <i class="fas fa-dog"></i>
                             </div>
@@ -80,10 +81,10 @@
                     </div>
                 </div>
 
-                <p id="info_headerSearch">
-                    <i class="fas fa-info-circle"></i>
-                    Plus de 500 logements sont disponibles dans cette ville
-                </p>
+                <div id="info_headerSearch">
+                    <i class="fas fa-info-circle"> </i>
+                    <p> Plus de 500 logements sont disponibles dans cette ville
+                </div>
             </section>
         
 
@@ -222,78 +223,93 @@
                     <p id="moreContent"> <a aria-label="Afficher plus" href=""> Afficher plus</a> </p>
                 </section>
 
-                    <aside id="contentAsside">
-                        <div id="titleAsside">
-                            <h2>Les plus populaires</h2>
-                            <i class="fas fa-chart-line"></i>
-                        </div>
+                <aside id="contentAsside">
+                    <div id="titleAsside">
+                        <h2>Les plus populaires</h2>
+                        <i class="fas fa-chart-line"></i>
+                    </div>
 
                         <div id="contentAccomodationsAsside">
 
                             <section title="Hébergement Hôtel Le soleil du matin" class="blockAsside">
                                 <a aria-label="Hôtel le soleil du matin" href="">
-                                    <div class="imgAsside">
-                                        <img class="imgAccomodationAsside" src="../images/hebergements/4_small/Hôtel_Le_soleil_du_matin.jpg" alt="Hébergement Hôtel Le soleil du matin">
-                                    </div>
-                                    <div class="footerContentAsside">
-                                        <h3 class="nameAccomodation">Hôtel le soleil du matin</h3>
-                                        <p class="priceAccomodation">Nuit à partir de <strong>128€</strong></p>
-                                        <div class="rating">
-                                            <div class="stars">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
+                                    <div class="descriptionAssidePlace">
+                                        <div class="imgAsside">
+                                            <img class="imgAccomodationAsside" src="../images/hebergements/4_small/Hôtel_Le_soleil_du_matin.jpg" alt="Hébergement Hôtel Le soleil du matin">
+                                        </div>
+                                        <div class="descriptionAsside">
+                                            <div class="titleDescriptionPlace">
+                                                <h3 class="nameAccomodation">Hôtel le soleil du matin</h3>
+                                                <p class="priceAccomodation">Nuit à partir de <strong>128€</strong></p>
+                                            </div>
+                                            <div class="ratingAsside">
+                                                <div class="stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
                             </section>
 
+                            
                             <section title="Hébergement Au coeur de l'eau Chambres d'hôtes" class="blockAsside">
                                 <a aria-label="Au coeur de l'eau Chambres d'hôtes" href="">
-                                    <div class="imgAsside">
-                                        <img class="imgAccomodationAsside" src="../images/hebergements/4_small/Au_coeur_de_l'eau_Chambres_d'hôtes.jpg" alt="Hébergement Au coeur de l'eau Chambres d'hôtes">
-                                    </div>
-                                    <div class="footerContentAsside">
-                                        <h3 class="nameAccomodation">Au coeur de l'eau Chambres d'hôtes</h3>
-                                        <p class="priceAccomodation">Nuit à partir de <strong>71€</strong></p>
-                                        <div class="rating">
-                                            <div class="stars">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="far fa-star"></i>
+                                    <div class="descriptionAssidePlace">
+                                        <div class="imgAsside">
+                                            <img class="imgAccomodationAsside" src="../images/hebergements/4_small/Au_coeur_de_l'eau_Chambres_d'hôtes.jpg" alt="Hébergement Hôtel Le soleil du matin">
+                                        </div>
+                                        <div class="descriptionAsside">
+                                            <div class="titleDescriptionPlace">
+                                                <h3 class="nameAccomodation">Au coeur de l'eau Chambres d'hôtes</h3>
+                                                <p class="priceAccomodation">Nuit à partir de <strong>71€</strong></p>
+                                            </div>
+                                            <div class="ratingAsside">
+                                                <div class="stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
                             </section>
+
 
                             <section title="Hébergement Hôtel Tout bleu et Blanc" class="blockAsside">
                                 <a aria-label="Hôtel Tout bleu et Blanc" href="">
-                                    <div class="imgAsside">
-                                        <img class="imgAccomodationAsside" src="../images/hebergements/4_small/Hôtel_Tout_bleu_et_Blanc.jpg" alt="Hébergement Hôtel Tout bleu et Blanc">
-                                    </div>
-                                    <div class="footerContentAsside">
-                                        <h3 class="nameAccomodation">Hôtel Tout bleu et Blanc</h3>
-                                        <p class="priceAccomodation">Nuit à partir de <strong>68€</strong></p>
-                                        <div class="rating">
-                                            <div class="stars">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="far fa-star"></i>
+                                    <div class="descriptionAssidePlace">
+                                        <div class="imgAsside">
+                                            <img class="imgAccomodationAsside" src="../images/hebergements/4_small/Hôtel_Tout_bleu_et_Blanc.jpg" alt="Hébergement Hôtel Tout bleu et Blanc">
+                                        </div>
+                                        <div class="descriptionAsside">
+                                            <div class="titleDescriptionPlace">
+                                                <h3 class="nameAccomodation">Hôtel Tout bleu et Blanc</h3>
+                                                <p class="priceAccomodation">Nuit à partir de <strong>68€</strong></p>
+                                            </div>
+                                            <div class="ratingAsside">
+                                                <div class="stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </div>
                                             </div>
                                         </div>
+                        
                                     </div>
-                        </div>
                                 </a>
                             </section>
-                    </aside>
+                        </div>
+                </aside>
             </main>
 
                 <section id="activity">
