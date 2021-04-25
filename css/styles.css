@@ -1,7 +1,6 @@
 body {
 	font-family: 'Raleway', sans-serif;
-    margin-left: 25px;
-    margin-right: 38.5px;
+    
 }
 #containBody {
     display: flex;
@@ -11,8 +10,12 @@ body {
 
 main {
     display: flex;
-	
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;	
 }
+
+
 
 /* HEADER */
 
@@ -20,6 +23,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding-top: 27.5px;
+    margin-left: 50px;
+    margin-right: 50px;	
 
 }
 
@@ -70,6 +75,8 @@ nav li  {
     display: flex;
     flex-direction: column;
     padding-top: 26px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #title_headerSearch p {
@@ -227,13 +234,17 @@ input {
 
 
                             /* SECTION HEBERGEMENTS */
+#contenair {
+display: flex;
+}
 
 /* LE CARRE GRIS */                            
 #accomodations {
     background-color: #F2F2F2;        
     border-radius: 2%;                  
-    width: 880px; 
+    width: 843px; 
     height: 625px;
+    margin-right: 40px;
 }
 
 
@@ -256,18 +267,18 @@ input {
 
 /* SELF BLOC HEBERGEMENT */
 .blockContent {
-    width: 235px;
+    width: 226px;
     height: 198px;
     border-radius: 10%;                 
     background-color: white;
     margin-right: 30px;
-    margin-bottom: 29px;
+    margin-bottom: 30px;
 }
 
 
 /* BLOC DES IMAGES */
 .imgContent {
-    width: 225px;
+    width: 216px;
     height: 113px;                        
     margin: auto; 
     margin-top: -14px;
@@ -346,8 +357,7 @@ input {
     background-color: #F2F2F2;
     border-radius: 2%;
     height: 624px;                     
-    width: 419px;
-    margin-left: 40px;
+    width: 383px;
 }
 
 
@@ -373,6 +383,8 @@ input {
     margin: auto;           
     padding-top: 20px;
     padding-left: 60px;
+    margin-right: 40px;
+    
 
 }
         /* FIN DE LA GESTION CARRE GRIS ASSIDE HEBERGEMENT POPULAIRE */
@@ -383,18 +395,21 @@ input {
 #contentAccomodationsAsside {
     display: flex;
     flex-direction: column;
-    margin: auto;                                           
+    margin: auto; 
+    width: 100%;                                          
 }
 
 
 /* SELF BLOC HEBERGEMENT POPULAIRE */
 .blockAsside {    
-    width: 342px;
+    width: 323px;
     height: 143px;
     border-radius: 10%;
     background-color: white;            
     margin: auto;
     margin-bottom: 33px;
+    margin-right: 30px;
+    margin-left: 27px;
 }
 
 
@@ -441,3 +456,166 @@ input {
 
 
 
+        /* SECTION ACTIVITES */
+#activity {
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    margin-right: 70px;
+}
+
+#blockContentActivity {
+    display: flex;
+    justify-content: space-between;
+}
+
+#titleActivity {
+    font-size: 1.2em;                   
+}
+
+/* SECTION GAUCHE ACTIVITES  */
+#contentLeft {
+    display: flex;
+    margin-right: 40px;
+}
+
+/* SECTION DROITE ACTIVITES  */
+#contentRight {
+    display: flex;
+}
+
+        /* CONTENAIRE XL */
+.blocActivity_XL {
+    border-radius: 10%;
+    height: 444px;
+    width: 280px;
+    box-shadow: 1px 1px 1px 1px  #F2F2F2;
+}
+
+
+/* CONTENAIRE IMAGE */
+.containerImg_XL {
+    height: 389px;
+    width: 100%;
+    margin-top: -16px;
+}
+
+
+/* IMAGE */
+.imgActivity_XL {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+        /* FIN CONTENAIRE XL */
+
+
+/*CONTENAIRE L */
+.blocActivity_L {
+    border-radius: 10%;
+    height: 235px;
+    width: 280px;
+    box-shadow: 1px 1px 1px 1px  #F2F2F2;
+    margin-bottom: 45px;
+}
+
+/* CONTENAIRE IMAGE */
+.containerImg_L {
+    height: 181px;
+    width: 100%;
+    margin-top: -16px;
+}
+
+/* IMAGE */
+.imgActivity_L {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+        /* FIN CONTENAIRE L */
+
+/*CONTENAIRE M */
+.blocActivity_M {
+    border-radius: 10%;
+    height: 164px;
+    width: 280px;
+    box-shadow: 1px 1px 1px 1px  #F2F2F2;
+    margin-bottom: 45px;
+}
+
+/* CONTENAIRE IMAGE */
+.containerImg_M {
+    height: 108px;
+    width: 100%;
+    margin-top: -16px;
+}
+
+/* IMAGE */
+.imgActivity_M {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+#leftPosition {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+}
+
+
+.nameActivity {
+    color: black;
+    font-size: 1em;                 
+    font-weight: bold;
+    padding-left: 19px;
+}
+
+
+/* SECTION DROITE ACTIVITES  */
+#contentRight {
+    display: flex;
+}
+
+#rightPosition {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+}
+       
+
+
+footer {
+    height: 217px;
+    background-color: #F2F2F2;
+
+}
+
+#info_footer {
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.colonne_footer {
+    padding-right: 200px;
+}
+
+.colonne_footer a {
+    display: flex;
+    color: black; 
+    margin-left: -15px;   
+    line-height: 27px;
+
+}
+
+.colonne_footer a:hover {
+    color: #0065fc;
+}
