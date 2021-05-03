@@ -31,7 +31,8 @@ a {
 .stars {
     color: #0065fc; 
     font-size: 0.7em;
-    margin-block-end: 0.625em;}
+    margin-bottom: 0.625em;
+}
 
 .priceAccomodation {
     font-size: 0.8em;
@@ -130,7 +131,6 @@ nav a:hover {
     cursor: pointer;
     width: 33%;
     height: 3.188em;
-    padding: 9,25%;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
 }
@@ -138,22 +138,14 @@ nav a:hover {
 /*  FILTERS BAR  */
 #container_filtersBar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 90%;
     margin-top: 1.5em;
 }
 
 #title_filtersBar {
     font-weight: bold;
-}
-
-#filterOption {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 2.5%;
-    width: 100%;
-    height: 3em;
 }
 
 .inputFilter {
@@ -401,7 +393,7 @@ nav a:hover {
 }
 
 .container_imgXL{
-    height: 24.313em;
+    height: 24.813em;
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
 }
