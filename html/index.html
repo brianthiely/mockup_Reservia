@@ -1,87 +1,133 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-    <head>
-    <meta charset="utf-8">
-    <title>Reservia</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a6b7960de6.js" crossorigin="anonymous"></script>
+    <title>Reservia</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
 
-    </head>
-
-    <body>
-        <div id="blocPage">
-            <header>
-                <div id="container_headerColumn">
-                    <div id="headerColumnSearch">
-
-                        <div id="container_logo">
-                            <img id="logo" src="../images/logo/Reservia.svg" alt="logo Reservia">
-                        </div>
-
-                        <div id="title_headerSearch">
-                            <h1> Trouvez votre hébergement pour des vacances de rêve </h1>
-                            <p> En plein centre ville ou pleine nature </p>
-                        </div>
-
-                        <div id="barSearch">
-                            <span id="iconeGPS">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </span>
-                            <input id="city_search" type="search" placeholder="Marseille, France">
-                            <input id="btnSearch" type="submit" value="Rechercher">  
-                        </div>
-
-                        <div id="container_filtersBar">
-                            <span id="title_filtersBar"> Filtres </span>
-                                <div class="inputFilter">
-                                    <span class="circleIcone">
-                                        <i class="fas fa-money-bill-wave iconeFilter"></i>
-                                    </span>
-                                    <input type="button" class="filter" value="Économique">
-                                </div> 
-                                    
-                                <div class="inputFilter">
-                                    <span class="circleIcone">
-                                        <i class="fas fa-child iconeFilter"></i>
-                                    </span>
-                                    <input type="button" class="filter" value="Familial">
-                                </div>
-        
-                                <div class="inputFilter">
-                                    <span class="circleIcone">
-                                        <i class="fas fa-heart iconeFilter"></i>
-                                    </span>
-                                    <input type="button" class="filter" value="Romantique">
-                                </div>
-        
-                                <div class="inputFilter">
-                                    <span class="circleIcone">
-                                        <i class="fas fa-dog iconeFilter"></i>
-                                    </span>
-                                    <input type="button" class="filter" value="Animaux autorisés">
-                                </div>
-                        </div>
-                        <div id="info_headerSearch">
-                            <span id="circleIcone_Info">
-                                <i class="fas fa-info"></i>
-                            </span>
-                            <p> 
-                            Plus de 500 logements sont disponibles dans cette ville 
-                            </p>
-                        </div>
-                    </div>
-
-                    <div id="headerColumnNav">
-                        <nav>
-                            <a href="#blockAccomodations"> Hébergements </a>
-                            <a href="#activity"> Activités </a>
-                            <a id="inscription" href="#inscription"> S'inscrire </a> 
-                        </nav>
-                    </div>
+            <div id="col_logo">
+                <div>
+                    <img id="logo" src="../images/logo/Reservia.svg" alt="logo Reservia">
                 </div>
-            </header>
+            </div>
+
+            <div id="col_ancres">
+                <nav>
+                    <a href="#blockAccomodations"> Hébergements </a>
+                    <a href="#activity"> Activités </a>
+                </nav>
+            </div>
+
+            <div id="col_register">
+                <nav>
+                    <a href="#inscription"> S'inscrire </a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="title_headerSearch">
+                <h1> Trouvez votre hébergement pour des vacances de rêve </h1>
+                <p> En plein centre ville ou pleine nature </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <span id="iconeGPS">
+                <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <input id="city_search" type="search" placeholder="Marseille, France">
+            <input id="btnSearch" type="submit" value="Rechercher">  
+        </div>
+
+        <div class="row">
+            <span id="title_filtersBar"> Filtres </span>
+            <nav id="filterSearch">
+                <ul>
+                    <li><i class="fas fa-money-bill-wave iconeFilter"></i>Économique</li>
+                    <li><i class="fas fa-child iconeFilter"></i>Familial</li>
+                    <li><i class="fas fa-heart iconeFilter"></i>Romantique</li>
+                    <li><i class="fas fa-dog iconeFilter"></i>Animaux autorisés</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div id="headerInfo">
+                <i class="fas fa-info iconeInfo"></i><p> Plus de 500 logements sont disponibles dans cette ville </p>
+            </div>
+        </div>
+
+<main>
+    <div class="row">
+        <div id="containerMarseille">
+            <div class="row">
+                <h2> Hébergements à Marseille </h2> 
+            </div>
+            
+            <div class="row">
+                <div id="container_accomodations">
+                    <section title="Hébergement l'Auberge la Cannebière" class="accomodation">
+                        <a aria-label="Auberge la Cannebière" href="">
+                            <div class="container_imgAccomodation">
+                                <!-- <img class="imgAccomodation" src="../images/hebergements/3_medium/Auberge_la_Cannebiere.jpg" alt="Hébergement l'Auberge la Cannebière"> -->
+                            </div>
+                            <div class="footerAccomodation">
+                                <h3 class="nameAccomodation">Auberge la Cannebière</h3>
+                                <p class="priceAccomodation">Nuit à partir de <strong>25€</strong></p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </section>
+
+
+                    
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+        <div id="containerAsside">
+            
+        </div>
+    </div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+</html>
+
+
+<!--  
 
             <main>
                 <div id="container_blockAccomodations_blockAsside">
@@ -420,3 +466,4 @@
             </footer> 
     </body>
 </html>
+-->
