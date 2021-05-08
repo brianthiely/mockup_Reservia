@@ -1,5 +1,7 @@
 body {
 	font-family: 'Raleway', sans-serif;  
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2 {
@@ -199,13 +201,87 @@ a {
     border-radius: 1.5em;
 }
 
-#container_accomodations {
+#container_cards {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin: 0% 5% 0% 5%;
 }
 
+.card {
+    width: 30%;
+    background-color: white;
+    padding: 0.281em 0.281em 0em 0.281em;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    border-radius: 1em; 
+    box-shadow: 1px 1px 10px 1px #ccc;
+}
+
+.container_img_cards {
+    margin-bottom: 0.688em;
+}
+
+.img_cards {
+        width: 100%;    
+        object-fit: cover;
+        border-top-left-radius: 1em; 
+        border-top-right-radius: 1em; 
+}
+
+.footer_cards {
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nameCards {
+    margin: 0;
+}
+
+.priceCards {
+    margin: 0;
+    margin: 0.688em 0em 0.688em 0em;
+    font-size: 0.8em;
+    color: black; 
+}
+
+.stars {
+    margin: 0;
+    margin-bottom: 0.688em;
+    color: #0065fc; 
+    font-size: 0.7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
 .accomodation {
     background-color: white;
     padding: 0.281em 0.281em 0em 0.281em;
@@ -215,16 +291,15 @@ a {
 }
 
 .container_imgAccomodation {
-    border: solid red;
-    min-height: 7.125em;
+    background-image: url("../images/hebergements/3_medium/Auberge_la_Cannebiere.jpg");
+    background-size: cover;
+    width: 100%;
     margin-bottom: 0.688em;
-}
-
-.imgAccomodation {
-    object-fit: cover;
     border-top-left-radius: 1em; 
     border-top-right-radius: 1em; 
 }
+
+
 
 .footerAccomodation {
     margin-left: 5%;
