@@ -335,7 +335,6 @@ a {
 }
 
 #containerActivity {
-    border: solid red 1px;
     display: flex;
 }
 
