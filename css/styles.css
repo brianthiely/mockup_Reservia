@@ -76,6 +76,8 @@ a {
     text-decoration: none;
 }
 
+
+
 #title_headerSearch h1 {
     margin: 0;
 }
@@ -342,86 +344,48 @@ a {
     margin-left: 5%;
 }
 
-#activity h2 {
+.activity h2 {
     margin-top: 3em;
 }
 
-.cardsxl {
-    width: 90%;
-    background-color: white;
-    border-radius: 1em; 
-    box-shadow: 1px 1px 10px 1px #ccc;
-    margin-bottom: 2.75em;
+
+
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 100%);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
 }
+    
 
-.imgxl {
-    width: 100%; 
-    border-top-left-radius: 1em; 
-    border-top-right-radius: 1em; 
+.act1 { 
+    border: solid  red 1px;
+    grid-area: 1 / 1 / 3 / 2; 
 }
-
-
-#card_pomegues {
-    width: 90%;
-    margin-bottom: 1.7em;
-    background-color: white;
-    border-radius: 1em; 
-    box-shadow: 1px 1px 10px 1px #ccc;
+.act2 { 
+    border: solid  blue 1px;
+    grid-area: 1 / 2 / 2 / 3; 
 }
-
-#img_pomegues {
-    width: 100%; 
-    border-top-left-radius: 1em; 
-    border-top-right-radius: 1em;
+.act3 { 
+    border: solid green 1px;
+    grid-area: 2 / 2 / 3 / 3; 
 }
-
-#card_frioul {
-    width: 90%;
-    background-color: white;
-    border-radius: 1em; 
-    box-shadow: 1px 1px 10px 1px #ccc;
+.act4 { 
+    border: solid  hotpink 1px;
+    grid-area: 1 / 3 / 3 / 4; 
 }
-
-#img_frioul {
-    object-fit: cover;
-    width: 100%; 
-    border-top-left-radius: 1em; 
-    border-top-right-radius: 1em;
+.act5 { 
+    border: solid  saddlebrown 1px;
+    grid-area: 1 / 4 / 2 / 5; 
 }
-
-#card_notreDame {
-    width: 90%;
-    margin-bottom: 1.7em;
-    background-color: white;
-    border-radius: 1em; 
-    box-shadow: 1px 1px 10px 1px #ccc;
+.act6 { 
+    border: solid  yellow 1px;
+    grid-area: 2 / 4 / 3 / 5; 
 }
-
-#img_notreDame {
-    object-fit: cover;
-    width: 100%; 
-    border-top-left-radius: 1em; 
-    border-top-right-radius: 1em;
-}
-
-#card_longchamp {
-    width: 90%;
-    background-color: white;
-    border-radius: 1em; 
-    box-shadow: 1px 1px 10px 1px #ccc;
-}
-
-#img_longchamp {
-    object-fit: cover;
-    width: 100%; 
-    border-top-left-radius: 1em; 
-    border-top-right-radius: 1em;
-}
-
-
-
-
-
 
 
 
