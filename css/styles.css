@@ -336,196 +336,89 @@ a {
     display: flex;
 }
 
-#containerActivity {
-    display: flex;
-}
-
-.nameActivity {
-    margin-left: 5%;
-}
-
-.activity h2 {
+#titleActivity {
     margin-top: 3em;
 }
-
-
-
-
-
-
-.parent {
-    display: grid;
-    grid-template-columns: repeat(4, 100%);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
-}
-    
-
-.act1 { 
-    border: solid  red 1px;
-    grid-area: 1 / 1 / 3 / 2; 
-}
-.act2 { 
-    border: solid  blue 1px;
-    grid-area: 1 / 2 / 2 / 3; 
-}
-.act3 { 
-    border: solid green 1px;
-    grid-area: 2 / 2 / 3 / 3; 
-}
-.act4 { 
-    border: solid  hotpink 1px;
-    grid-area: 1 / 3 / 3 / 4; 
-}
-.act5 { 
-    border: solid  saddlebrown 1px;
-    grid-area: 1 / 4 / 2 / 5; 
-}
-.act6 { 
-    border: solid  yellow 1px;
-    grid-area: 2 / 4 / 3 / 5; 
-}
-
-
-
-
-
-
-
-
-
-
-/*  
-#container_activity {
-    width: 100%;
-}
-
-.nameActivity {
-    margin-left: 5%;
-}
-
-#container_activity h2 {
-    margin-top: 3em;
-}
-
-.cardsxl {
-    width: 100%;
-    background-color: white;
-    border-radius: 1em; 
-    box-shadow: 1px 1px 10px 1px #ccc;
-    margin-bottom: 2.75em;
-}
-
-.imgxl {
-    width: 100%; 
-    border-top-left-radius: 1em; 
-    border-top-right-radius: 1em; 
-}
-
-
-#card_pomegues {
-    width: 100%;
-    margin-bottom: 1.7em;
-    background-color: white;
-    border-radius: 1em; 
-    box-shadow: 1px 1px 10px 1px #ccc;
-}
-
-#img_pomegues {
-    width: 100%; 
-    border-top-left-radius: 1em; 
-    border-top-right-radius: 1em;
-}
-
-#card_frioul {
-    width: 100%;
-    background-color: white;
-    border-radius: 1em; 
-    box-shadow: 1px 1px 10px 1px #ccc;
-}
-
-#img_frioul {
-    object-fit: cover;
-    width: 100%; 
-    border-top-left-radius: 1em; 
-    border-top-right-radius: 1em;
-}
-
-#card_notreDame {
-    width: 100%;
-    margin-bottom: 1.7em;
-    background-color: white;
-    border-radius: 1em; 
-    box-shadow: 1px 1px 10px 1px #ccc;
-}
-
-#img_notreDame {
-    object-fit: cover;
-    width: 100%; 
-    border-top-left-radius: 1em; 
-    border-top-right-radius: 1em;
-}
-
-#card_longchamp {
-    width: 100%;
-    background-color: white;
-    border-radius: 1em; 
-    box-shadow: 1px 1px 10px 1px #ccc;
-}
-
-#img_longchamp {
-    object-fit: cover;
-    width: 100%; 
-    border-top-left-radius: 1em; 
-    border-top-right-radius: 1em;
-}
-
-
-/*  
-#container_activity {
-    width: 100%;
-}
-
-#container_activity h2 {
-    width: 100%;
-    margin-top: 3em;
-}
-
 #activity {
-    border: solid red 1px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 12em 2.5em 2.5em 10em;
+    grid-column-gap: 2.5em;
 }
 
-#col_left {
-    border: solid black 1px;
-    display: flex;
-    justify-content: space-between;
-    width: 48%;
-}
-
-.card_xl {
-    border: solid green 1px;
-    width: 45%;
-    background-color: white;
-    border-radius: 1em; 
+#activity a {
     box-shadow: 1px 1px 10px 1px #ccc;
-}
-
-.img_activity {
-    object-fit: cover;
-    width: 100%; 
-    margin-bottom: 0.288em;
-    border-top-left-radius: 1em; 
-    border-top-right-radius: 1em;
-}
-
- 
-#col_right {
-    border: solid black 1px;
+    border-radius: 1em;
+    overflow: hidden;
     display: flex;
-    justify-content: space-between;
-    width: 48%;
+    flex-direction: column;
 }
+
+#activity img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.nameActivity {
+    margin-left: 5%;
+}
+
+.imgActivity {
+    position: relative;
+    flex: 1;
+}
+
+#vieuxPort {
+    grid-column: 1/2;
+    grid-row: 1/5 ;
+}
+
+
+#fort {
+    grid-column: 2/3 ;
+    grid-row: 1/3;
+}
+
+#calanques {
+    grid-column: 3/4 ;
+    grid-row: 1/5 ;
+}
+
+#notreDame {
+    grid-column: 4/5 ;
+    grid-row: 1/2;
+}
+
+#frioul {
+    grid-column: 2/3 ;
+    grid-row: 4/5 ;
+}
+
+#longchamp {
+    grid-column: 4/5;
+    grid-row: 3/5 ;
+}
+
+footer {
+    background-color: #F2F2F2;
+    margin-top: 3.75em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+footer a {
+    color: black;
+    line-height: 1.5em;
+}
+ footer .row {
+     width: 71%;
+     margin-left: 3%;
+     justify-content: space-between;
+}
+
+
+
+
+
