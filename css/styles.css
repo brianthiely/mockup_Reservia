@@ -1,221 +1,239 @@
-body {
-	font-family: 'Raleway', sans-serif;  
-    margin: 0;
-    padding: 0;
-}
 
-h1, h2 {
-    color: black; 
-    font-size: 1.2em;
-}
+                                    /* REGLES GENERAL */
 
-h3 {
-    font-size: 0.92em;               
-    color: black;
-}
+                        body { font-family: 'Raleway', sans-serif;  margin: 0; padding: 0;}
 
-p {
-    color: black; 
-    font-size: 1.12em;
-}
+                        h1, h2 { color: black;  font-size: 1.5em;}
 
-li {
-    list-style-type: none;
-}
+                        h3 { font-size: 0.92em; color: black;}
 
-a {
-    text-decoration: none;
-}
+                        p { color: black;  font-size: 1.18em;}
 
-.container {
-    margin: 3% 3% 0% 3%;
-}
+                        li { list-style-type: none;}
 
-.row {
-    display: flex;
-    width: 100%;
-}
+                        a { color: black; text-decoration: none;}
 
-.col {
-    display: flex;
-    flex-direction: column;
-}
+                        .container { margin: 0% 3% 0% 3%;}
 
-#col_logo {
-    width: 70%;
-    margin-bottom: 2.625em;
-}
+                        .row { display: flex; width: 100%;}
 
+                        .col { display: flex; flex-direction: column;}
 
-#col_ancres {
-    width: 20%;
-}
-#col_ancres nav {
-    display: flex;
-    justify-content: space-between;
-}
-#col_ancres a {
-    text-decoration: none;
-}
-#col_ancres a:hover {
-    color: #0065fc;
-    text-decoration: none;
-}
-
-
-#col_register {
-    width: 10%;
-}
-#col_register nav {
-    display: flex;
-    justify-content: flex-end;
-}
-#col_register a {
-    color: #0065fc;
-    font-weight: bold;
-    text-decoration: none;
-}
+                                     /* REGLES GENERAL */
 
 
 
-#title_headerSearch h1 {
-    margin: 0;
-}
 
-#iconeGPS {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #F2F2F2;
-    width: 4%;
-    font-size: 1em;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-}
+/* HEADER */
+    /* PRINCIPAL ROW */
+        #row_logo { 
+            width: 70%;
+            padding-top: 2em; }
 
-#city_search {
-    width: 19%;
-    border: solid #F2F2F2 1px;
-    outline: none;
-    font-size: 1.1em;
-    color: black;
-    font-weight: bold;
-    padding: 0.7em 0% 0.7em 2%;
-}
+        #row_ancres {
+            display: flex; 
+            justify-content: space-around; 
+            width: 20%;}
 
-#city_search::placeholder {
-    font-weight: bold;
-    color: black;
-}
-
-::placeholder {
-    opacity: 1;
-    transition: opacity .5s;  
-} 
-
-*:focus::placeholder { 
-    opacity: 0; 
-} 
-
-#btnSearch {
-    background-color: #0065fc;
-    font-weight: bold;
-    color: white;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    width: 10%;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-}
-
-#filterSearch {
-    width: 70%;
-}
-
-#title_filtersBar {
-    display: flex;
-    align-items: center;
-    color: black;
-    font-weight: bold;
-}
-
-#filterSearch ul {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1.5em;
-}
-
-#filterSearch li {
-    display: flex;
-    align-items: center;
-    border: solid #d9d9d9 0.1em;
-    border-left: none;
-    font-weight: bold;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5em;
-    padding-right: 1.375em;
-}
-
-.iconeFilter{
-    color: #0065fc;
-    background-color: #deebff;
-    border-radius: 50%;
-    padding: 1em;
-    margin-right: 0.75em;
-}
-
-#filterSearch li:hover {
-    background-color: #DEEBFF;
-}
-
-#headerInfo {
-    display: flex;
-    align-items: center;
-    font-size: 0.9em
-}
-
-.iconeInfo {
-    color: #0065fc;
-    background-color: white;
-    border: solid #F2F2F2 2px;
-    border-radius: 50%;
-    padding: 0.5em 0.8em 0.5em 0.8em;
-    margin-right: 1em;
-    font-size: 0.8em;
-}
+        #row_register { 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            width: 10%;}
+    /* PRINCIPAL ROW */
 
 
-#containerMarseille {
-    margin-top: 1em;
-    margin-right: 3%;
-    background-color: #F2F2F2;
-    width: 70%;
-    border-radius: 1.5em;
-}
-#containerMarseille h2 {
-    margin: 2.5em 0 1em 4%;
-}
+    /* STYLE ROW_ANCRE */
+        #row_ancre1 { 
+            width: 50%; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            padding-top: 2em;}
+
+        #row_ancre1:hover { 
+            border-top: solid #0065fc 2px;}
+
+        #row_ancre1 a:hover { 
+            color: #0065fc;
+            font-weight: 500;}
+
+        #row_ancre2 { 
+            width: 50%; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            padding-top: 2em;}
+
+        #row_ancre2:hover { 
+            border-top: solid #0065fc 2px;}
+
+        #row_ancre2 a:hover { 
+            color: #0065fc; 
+            font-weight: 500;}
+    /* STYLE ROW_ANCRE */
 
 
-#container_cards {
+    /* STYLE ROW_REGISTER */
+        #row_register {
+            padding-top: 2em;}
+        
+        #row_register a {
+            font-weight: bold; 
+            color: #0065fc;}
+    /* STYLE ROW_REGISTER */
+/* HEADER */
+
+
+
+/* SECTION SEARCH */
+    /* TITLE */
+        #title { 
+            margin-top: 1em;}
+    /* TITLE */
+
+
+    /* BAR */
+        #iconeGPS { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            background-color: #F2F2F2;
+            width: 4%; 
+            font-size: 1em; 
+            border-top-left-radius: 1em; 
+            border-bottom-left-radius: 1em;}
+
+        #city_search {  
+            width: 19%; 
+            border: solid #F2F2F2 1px; 
+            outline: none; 
+            font-size: 1.1em; 
+            color: black; 
+            font-weight: bold; 
+            padding: 0.7em 0% 0.7em 2%;}
+
+        #city_search::placeholder { 
+            font-weight: bold; 
+            color: black;}
+
+        ::placeholder { 
+            opacity: 1; 
+            transition: opacity .5s;} 
+
+        *:focus::placeholder { 
+            opacity: 0;} 
+
+        #btnSearch {
+            background-color: #0065fc; 
+            font-weight: bold; 
+            color: white; 
+            border: none;
+            outline: none; 
+            cursor: pointer; 
+            width: 10%; 
+            border-top-right-radius: 1em; 
+            border-bottom-right-radius: 1em;}
+        
+        .fa-search {
+            display: none;
+        } 
+    /* BAR */
+
+
+    /* FILTRES */
+        .row_filters { 
+            width: 70%;
+            display: flex;} 
+       
+        #filterSearch { 
+            width: 100%;}
+
+        #title_filtersBar { 
+            display: flex; 
+            align-items: center; 
+            color: black; 
+            font-weight: bold; 
+            font-size: 1.2em;}
+
+        #filterSearch ul { 
+            display: flex; 
+            justify-content: space-between; 
+            margin-top: 1.5em;}
+
+        #filterSearch li {  
+            display: flex; 
+            align-items: center; 
+            border: solid #d9d9d9 2px;
+            border-left: none; 
+            font-weight: bold; 
+            outline: none; 
+            cursor: pointer;
+            border-radius: 5em;}
+
+        .iconeFilter{ 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0065fc; 
+            background-color: #deebff; 
+            border-radius: 5em; 
+            width: 50px;
+            height: 50px;
+            margin-right: 0.75em;}
+
+        #filterSearch li:hover {
+            background-color: #DEEBFF;}
+
+    /* FILTRES */
+
+
+    /* CIRCLE INFOS */
+        #headerInfo { 
+            display: flex; 
+            align-items: center; 
+            font-size: 0.9em;}
+
+        .iconeInfo {
+            color: #0065fc; 
+            background-color: white; 
+            border: solid #F2F2F2 2px;
+            border-radius: 50%; 
+            padding: 0.5em 0.8em 0.5em 0.8em; 
+            margin-right: 1em; 
+            font-size: 0.8em;}
+    /* CIRCLE INFOS */
+/* SECTION SEARCH */
+
+
+
+/* SECTION HEBERGEMENTS */
+    /* MARSEILLE CARDS */
+        #containerMarseille {
+            margin-top: 1em; 
+            margin-right: 3%; 
+            background-color: #F2F2F2; 
+            width: 70%;
+            border-radius: 1.5em;}
+
+        #containerMarseille h2 {
+            margin: 2.5em 0 1em 4%;}
+
+        #container_cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 4%;
     margin-right: 4%;
-    width: 100%;
-}
+    width: 100%;}
 
-.card {
+        .card {
     width: 30%;
     margin-bottom: 3%;
     border: solid white 4px;
     background-color: white;
     border-radius: 1em; 
-    box-shadow: 1px 1px 10px 1px #ccc;
-}
+    box-shadow: 1px 1px 10px 1px #ccc;}
 
 .img_cards {
     object-fit: cover;
@@ -422,3 +440,186 @@ footer a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Mobile  */
+@media screen and (max-width: 414px) {
+
+
+    header .row {
+        display: flex; flex-wrap: wrap;
+    }
+
+    #row_logo {
+        width: 75%;
+        order: 1;
+    }
+
+    #row_register {
+        width: 20%;
+        order: 2;
+    }
+
+    #row_ancres {
+        width: 100%;
+        order: 3;
+    }
+
+    #row_ancre1 {
+        padding-bottom: 1em;
+    }
+
+    #row_ancre2 {
+        padding-bottom: 1em;
+    }
+
+    #row_ancre1:hover {
+        border-top: none;
+        border-bottom: solid #0065fc 2px;
+    }
+
+    #row_ancre2:hover {
+        border-top: none;
+        border-bottom: solid #0065fc 2px;
+    }
+
+    #title {
+        margin-bottom: 1em;
+    }
+
+    .row_filters {
+        flex-direction: column;
+    }
+    
+    #filterSearch ul {
+        flex-wrap: wrap;
+    }
+
+    
+
+    #iconeGPS {
+        width: 15%;
+    }
+    
+    #city_search { 
+        width: 70%;
+    }
+
+    #btnSearch {
+        width: 15%;
+        border-radius: 1em;
+    }
+
+    #btnSearch span {
+        display: none;
+    }
+
+    .fa-search {
+        display: initial;
+    }
+
+    
+}
+
+
+
+
+/* Mobile 
+@media screen and (max-width: 414px) {
+
+    .container { margin: 0}
+    header .row {display: flex; flex-wrap: wrap; margin-top: 1.5em;}
+    #col_logo {width: 40%; order: 1;} 
+    #logo {margin-left: 10%;}
+    #col_register {width: 50%; order: 2; display: flex; align-items: center; justify-content: center;  }
+    #col_ancres {width: 100%; order: 3; margin-top: 2em;}
+    #col_ancres a {color: black;}
+    
+    nav a {width: 50%; display: flex; justify-content: center;}
+  
+
+
+    #filterSearch ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/*  */
+
+
+
+
+
+
+
+ /*  Tablette  */
+  @media screen and (max-width: 1024px) { 
+    header .row {
+        display: flex; flex-wrap: wrap;
+    }
+
+    #row_logo {
+        width: 75%;
+        order: 1;
+    }
+
+    #row_register {
+        width: 20%;
+        order: 2;
+    }
+
+    #row_ancres {
+        width: 100%;
+        order: 3;
+    }
+
+    #row_ancre1 {
+        padding-bottom: 1em;
+    }
+
+    #row_ancre2 {
+        padding-bottom: 1em;
+    }
+
+    #row_ancre1:hover {
+        border-top: none;
+        border-bottom: solid #0065fc 2px;
+    }
+
+    #row_ancre2:hover {
+        border-top: none;
+        border-bottom: solid #0065fc 2px;
+    }
+
+    #iconeGPS {
+        width: 15%;
+    }
+    
+    #city_search { 
+        width: 70%;
+    }
+
+    #btnSearch {
+        width: 15%;
+        border-radius: 1em;
+    }
+
+    #btnSearch span {
+        display: none;
+    }
+    
+}

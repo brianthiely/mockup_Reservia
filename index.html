@@ -11,30 +11,38 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
 
-            <div id="col_logo">
-                <div>
+        <header>
+            <div class="row">
+                <div id="row_logo">
                     <img id="logo" src="images/logo/Reservia.svg" alt="logo Reservia">
                 </div>
-            </div>
 
-            <div id="col_ancres">
-                <nav>
-                    <a href="#blockAccomodations"> Hébergements </a>
-                    <a href="#activity"> Activités </a>
-                </nav>
-            </div>
+                <div id="row_ancres">
+                    <div id="row_ancre1">
+                        <nav>
+                            <a href="#containerMarseille"> Hébergements </a>
+                        </nav>
+                    </div>
 
-            <div id="col_register">
-                <nav>
-                    <a href="#inscription"> S'inscrire </a>
-                </nav>
+                    <div id="row_ancre2">
+                        <nav>
+                            <a href="#activity"> Activités </a>
+                        </nav>
+                    </div>
+                </div>
+
+                <div id="row_register">
+                    <nav>
+                        <a href="#inscription"> S'inscrire </a>
+                    </nav>
+                </div>
             </div>
-        </div>
+        </header>
+
 
         <div class="row">
-            <div id="title_headerSearch">
+            <div id="title">
                 <h1> Trouvez votre hébergement pour des vacances de rêve </h1>
                 <p> En plein centre ville ou pleine nature </p>
             </div>
@@ -45,10 +53,14 @@
                 <i class="fas fa-map-marker-alt"></i>
             </span>
             <input id="city_search" type="search" placeholder="Marseille, France">
-            <input id="btnSearch" type="submit" value="Rechercher">  
-        </div>
+            <button id="btnSearch">
+                <i class="fas fa-search"></i>
+                <span>Rechercher</span> 
+            </button>
+        </div>   
+       
 
-        <div class="row">
+        <div class="row_filters">
             <span id="title_filtersBar"> Filtres </span>
             <nav id="filterSearch">
                 <ul>
@@ -279,14 +291,14 @@
         
             <a id="vieuxPort" href="#">
                 <div class="imgActivity">
-                    <img src="/images/activites/3_medium/Vieux_port.jpg" alt="Vieux Port">
+                    <img src="images/activites/3_medium/Vieux_port.jpg" alt="Vieux Port">
                 </div>
                 <h3 class="nameActivity">Vieux Port</h3>
             </a>
 
             <a id="fort" href="#">
                 <div class="imgActivity">
-                    <img src="/images/activites/3_medium/Fort_de_Pomègues.jpg" alt="Fort de Pomègues">
+                    <img src="images/activites/3_medium/Fort_de_Pomègues.jpg" alt="Fort de Pomègues">
                 </div>
                 <h3 class="nameActivity">Fort de Pomègues</h3>
             </a>
