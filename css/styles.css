@@ -1,13 +1,241 @@
 
-                                    /* REGLES GENERAL */
+/* Mobile */
+@media screen and (max-width: 576px) {
 
-                        body { font-family: 'Raleway', sans-serif;  margin: 0; padding: 0;}
+    /* HEADER */ 
+        .row_header {
+            display: flex; 
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 2em;}
+              
+        #container_logo {
+            order: 1;
+            margin-left: 1em;}
 
-                        h1, h2 { color: black;  font-size: 1.5em;}
+        #container_register {
+            order: 2;
+            display: flex;
+            align-items: center;
+            margin-right: 1em;}
+
+        #container_ancres {
+            display: flex;
+            width: 100%;
+            order: 3;
+            margin-top: 1em;}
+    
+        #ancre1 {
+            display:flex;
+            justify-content: center;
+            width: 50%;}
+
+        #ancre2 {
+            display:flex;
+            justify-content: center;
+            width: 50%;}
+    /* HEADER */
+
+
+    /* SECTION SEARCH */
+        #sectionSearch {
+            margin: 1.25em;}
+
+        #title_sectionSearch h1 {
+            font-size: 1.4em;}
+
+        #title_sectionSearch p {
+            font-size: 1.1em;}
+
+        .row_searchBar {
+            display: flex;
+            width: 100%;
+            margin-bottom: 2em;
+            margin-top: 1em;}
+
+        #iconeGPS {
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            background-color: #f2f2f2;
+            width: 10%;
+            border-top-left-radius: 1em; 
+            border-bottom-left-radius: 1em;
+            padding: 0.8em;}
+
+        #searchBar {
+            width: 70%; 
+            border: solid #F2F2F2 1px; 
+            outline: none;
+            border-right: none;
+            color: black; 
+            font-weight: bold; 
+            font-size: 1em;
+            padding: 1em;}
+
+        #searchBar::placeholder { 
+            font-weight: bold; 
+            color: black;
+            width: 100%;}
+    
+        ::placeholder { 
+            opacity: 1; 
+            transition: opacity .5s;} 
+    
+        *:focus::placeholder { 
+            opacity: 0;} 
+
+        #inputSearch {
+            width: 15%;
+            border-radius: 1em;
+            background-color: #0065fc;}
+
+        #iconeSearch {
+            color: white;}
+
+        #wordSearch {
+            display: none;}
+    
+        .row_filtersBar {
+            display: flex;
+            flex-direction: column;}
+        
+        #title_filtersBar {
+            width: 100%;
+            color: black;
+            font-weight: bold;
+            font-size: 1.2em;}
+        
+        #filters ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0;}
+        
+        #filters li { 
+            display: flex; 
+            align-items: center; 
+            border: solid #d9d9d9 2px;
+            border-left: none; 
+            font-weight: bold; 
+            outline: none; 
+            cursor: pointer;
+            border-radius: 5em;
+            padding-right: 1em;
+            margin-bottom: 0.801em;}
+    
+        #filters span {
+            padding-left: 0.719em;}
+        
+        .iconeFilter{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0065fc; 
+            background-color: #deebff; 
+            border-radius: 5em; 
+            padding: 1em;}
+    
+        #filters li:hover { 
+            background-color: #DEEBFF;}
+        
+        #headerInfo { 
+            display: flex; 
+            align-items: center; 
+            font-size: 0.9em;}
+    
+        .iconeInfo {
+            color: #0065fc; 
+            background-color: white; 
+            border: solid #F2F2F2 2px;
+            border-radius: 50%; 
+            padding: 0.5em 0.8em 0.5em 0.8em; 
+            margin-right: 1em; 
+            font-size: 0.8em;}
+
+        #headerInfo p {
+            font-size: 1.1em;}
+    /* SECTION SEARCH */
+
+
+    /* SECTION ACCOMATIONS */
+        .row_accomodations {
+            display: flex;
+            flex-direction: column;}
+
+        #container_popular {
+            order: 1;
+            background-color: #F2F2F2;
+            padding: 1.25em 1.25em 0em 1.25em; }
+
+        .row_titlePopular {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.9em;}
+
+        .row_titlePopular i {
+            font-size: 1.5em;}
+    
+        .container_cardsPopular {
+
+         }
+    
+        #container_marseille {
+            order: 2;
+            background-color: #F2F2F2; }
+
+
+    /* SECTION ACCOMATIONS */
+
+    
+
+
+
+    
+}
+
+/* Tablette */
+@media screen and (min-width:576px) and (max-width: 1024px) {
+
+} 
+   
+   
+   
+   
+   
+   
+   
+   
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+body { font-family: 'Raleway', sans-serif; margin: 0;}                      
+.row { display: flex; width: 100%;}
+li { list-style-type: none;}
+a { color: black; text-decoration: none;}
+                                  
+                                    
+                                    
+                                    
+                                    
+                                    /* REGLES GENERALE 
+
+                        body { font-family: 'Raleway', sans-serif}
+
+                        h1 { color: black; font-size: 7vw;}
+
+                        h2 { color: black; font-size: 1.2em;}
 
                         h3 { font-size: 0.92em; color: black;}
 
-                        p { color: black;  font-size: 1.18em;}
+                        p { color: black;  font-size: 1.19em;}
 
                         li { list-style-type: none;}
 
@@ -19,13 +247,13 @@
 
                         .col { display: flex; flex-direction: column;}
 
-                                     /* REGLES GENERAL */
+                                     /* REGLES GENERALE */
 
 
 
 
 /* HEADER */
-    /* PRINCIPAL ROW */
+    /* PRINCIPAL ROW 
         #row_logo { 
             width: 70%;
             padding-top: 2em; }
@@ -43,7 +271,7 @@
     /* PRINCIPAL ROW */
 
 
-    /* STYLE ROW_ANCRE */
+    /* STYLE ROW_ANCRE 
         #row_ancre1 { 
             width: 50%; 
             display: flex; 
@@ -74,11 +302,11 @@
     /* STYLE ROW_ANCRE */
 
 
-    /* STYLE ROW_REGISTER */
+    /* STYLE ROW_REGISTER 
         #row_register {
             padding-top: 2em;}
-        
-        #row_register a {
+        /*  */
+        #container_register a {
             font-weight: bold; 
             color: #0065fc;}
     /* STYLE ROW_REGISTER */
@@ -87,13 +315,13 @@
 
 
 /* SECTION SEARCH */
-    /* TITLE */
+    /* TITLE 
         #title { 
             margin-top: 1em;}
     /* TITLE */
 
 
-    /* BAR */
+    /* BAR 
         #iconeGPS { 
             display: flex; 
             justify-content: center; 
@@ -141,7 +369,7 @@
     /* BAR */
 
 
-    /* FILTRES */
+    /* FILTRES 
         .row_filters { 
             width: 70%;
             display: flex;} 
@@ -188,7 +416,7 @@
     /* FILTRES */
 
 
-    /* CIRCLE INFOS */
+    /* CIRCLE INFOS 
         #headerInfo { 
             display: flex; 
             align-items: center; 
@@ -208,7 +436,7 @@
 
 
 /* SECTION HEBERGEMENTS */
-    /* MARSEILLE CARDS */
+    /* MARSEILLE CARDS 
         #containerMarseille {
             margin-top: 1em; 
             margin-right: 3%; 
@@ -293,7 +521,6 @@
 }
 
 #titleAsside h2 {
-    font-size: 1.2em;
     margin: 0;
 }
 
@@ -456,7 +683,7 @@ footer a {
 
 
 
-/*  Mobile  */
+/*  Mobile  
 @media screen and (max-width: 414px) {
 
 
@@ -566,7 +793,7 @@ footer a {
 
 
 
- /*  Tablette  */
+ /*  Tablette  
   @media screen and (max-width: 1024px) { 
     header .row {
         display: flex; flex-wrap: wrap;
