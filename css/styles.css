@@ -202,22 +202,25 @@
         width: 100%;
         padding: 0.3em 0em 0.3em 0.3em;}
         
+        .container_imgPopular {
+            width: 35%;
+        }
+
+
         #imgPopular_1 {
-            width: 38%;
+            width: 100%;
             border-top-left-radius: 1em;
             border-bottom-left-radius: 1em;
             background-image: url(/images/hebergements/4_small/Hôtel_Le_soleil_du_matin.jpg);
             background-size: cover;
             background-position:center;
             min-height: 134px;
-            max-height: 134px;
-            margin-right: 1.344em;}
+            max-height: 134px;}
 
         #imgPopular_2 {
-            width: 57%;
+            width: 100%;
             border-top-left-radius: 1em;
             border-bottom-left-radius: 1em;
-            margin-right: 1.344em;
             background-image: url(/images/hebergements/4_small/Au_coeur_de_l_eau_Chambres_d_hôtes.jpg);
             background-size: cover;
             background-position:center;
@@ -225,10 +228,9 @@
             max-height: 134px;}
        
         #imgPopular_3 {
-            width: 38%;
+            width: 100%;
             border-top-left-radius: 1em;
             border-bottom-left-radius: 1em;
-            margin-right: 1.344em;
             background-image: url(/images/hebergements/4_small/Hôtel_Tout_bleu_et_Blanc.jpg);
             background-size: cover;
             background-position:center;
@@ -238,7 +240,8 @@
         .footerPopular {
             display: flex;
             flex-direction: column;
-            justify-content: space-around;}
+            justify-content: space-around;
+            margin-left: 1.344em;}
         /* HEBERGEMENTS POPULAIRE */
    
 
