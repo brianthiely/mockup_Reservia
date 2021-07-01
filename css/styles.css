@@ -105,7 +105,8 @@ a { color: black; text-decoration: none;}
         #inputSearch {
             width: 15%;
             border-radius: 1em;
-            background-color: #0065fc;}
+            background-color: #0065fc;
+            cursor: pointer;}
 
         #iconeSearch {
             color: white;}
@@ -405,15 +406,6 @@ a { color: black; text-decoration: none;}
         .container_cardsPopular { 
         width: 70%;
         margin-top: 1em;}
-
-        #imgPopular_1 {
-            background-image: url(/images/hebergements/3_medium/Hôtel_Le_soleil_du_matin.jpg);} 
-
-        #imgPopular_2 {
-            background-image: url(/images/hebergements/3_medium/Au_coeur_de_l_eau_Chambres_d_hôtes.jpg);}
-
-        #imgPopular_3 {
-        background-image: url(/images/hebergements/3_medium/Hôtel_Tout_bleu_et_Blanc.jpg);}
     /* HEBERGEMENTS POPULAIRE */
 
 
@@ -430,24 +422,6 @@ a { color: black; text-decoration: none;}
         .container_card {
         width: 40%;
         margin: 1em;}
-
-        #imgCards_1 {
-            background-image: url(/images/hebergements/3_medium/Auberge_la_Cannebiere.jpg);}
-
-        #imgCards_2 {
-            background-image: url(/images/hebergements/3_medium/Hôtel_du_port.jpg);}
-
-        #imgCards_3 {
-            background-image: url(/images/hebergements/3_medium/Hôtel_Les_mouettes.jpg);}
-
-        #imgCards_4 {
-            background-image: url(/images/hebergements/3_medium/Hôtel_de_la_mer.jpg);}
-
-        #imgCards_5 {
-            background-image: url(/images/hebergements/3_medium/Auberge_Le_panier.jpg);}
-
-        #imgCards_6 {
-        background-image: url(/images/hebergements/3_medium/Hôtel_chez_Amina.jpg);}
     /* HEBERGEMENT MARSEILLE */
     #linkMore {
         text-align: center;
@@ -598,24 +572,6 @@ a { color: black; text-decoration: none;}
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;}
-
-        #imgCards_1 {
-            background-image: url(/images/hebergements/2_large/Auberge_la_Cannebiere.jpg);}
-
-        #imgCards_2 {
-            background-image: url(/images/hebergements/2_large/Hôtel_du_port.jpg);}
-
-        #imgCards_3 {
-            background-image: url(/images/hebergements/2_large/Hôtel_Les_mouettes.jpg);}
-
-        #imgCards_4 {
-            background-image: url(/images/hebergements/2_large/Hôtel_de_la_mer.jpg);}
-
-        #imgCards_5 {
-            background-image: url(/images/hebergements/2_large/Auberge_Le_Panier.jpg);}
-
-        #imgCards_6 {
-            background-image: url(/images/hebergements/2_large/Hôtel_chez_Amina.jpg);}
     
         .nameCards {
             font-size: initial;}
@@ -632,15 +588,6 @@ a { color: black; text-decoration: none;}
             width: 28%;
             order: 2;
             border-radius: 1em; }
-
-        #imgPopular_1 {
-            background-image: url(/images/hebergements/2_large/Hôtel_Le_soleil_du_matin.jpg);}
-
-        #imgPopular_2 {
-            background-image: url(/images/hebergements/2_large/Au_coeur_de_l_eau_chambres_d_hotes.jpg);}
-
-        #imgPopular_3 {
-            background-image: url(/images/hebergements/2_large/Hôtel_Tout_bleu_et_Blanc.jpg);}
     /* HEBERGEMENTS POPULAIRE */
  /* SECTION ACCOMATIONS */
 
